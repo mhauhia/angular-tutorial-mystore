@@ -8,7 +8,6 @@ import { products } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-
   products = products;
 
   share() {
@@ -16,7 +15,6 @@ export class ProductListComponent {
   }
 
   onNotify() {
-    window.alert('You will be notified when the product goes on sale');
+    window.alert('You will be notified when the product goes on sale!');
   }
-
 }
